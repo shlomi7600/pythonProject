@@ -1,6 +1,5 @@
 from random import randint
-number= randint(1,11)
-print(number)
+number= randint(1,15)
 guess=int(input("guess the number:"))
 
 while number!=guess:
